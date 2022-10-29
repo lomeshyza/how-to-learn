@@ -30,19 +30,14 @@
   right: 0;
   top: 64px;
 }
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.logo{
+  height: 32px;
+  width: 228px;
 }
 .logo_place_header{
   position:absolute;
   z-index: 2;
-  height: 32px;
-  width: 228px;
+
   top:30px;
   left: 64px;
   border: 1px solid red ;
@@ -100,7 +95,7 @@
   
   border: 1px solid red ;
 }
-.description__two-columns{
+.two-columns{
   display: flex;
   flex-direction: row;
   border: 1px solid blue;
@@ -109,13 +104,13 @@
   position:relative;
   min-height: 388px;
 }
-.description__two-columns-span-accent{
+.two-columns__span-accent{
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
   
 }
-.description__two-columns-brief{
+.two-columns__brief{
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -126,7 +121,7 @@
   margin:0;
 }
 
-.description__two-columns-main-text{
+.two-columns__main-text{
   min-width: 784px;
   width: 80%;
   margin:0;
@@ -136,7 +131,7 @@
   justify-content: space-between;
 }
 
-.description__two-columns-paragraph{
+.two-columns__paragraph{
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
@@ -155,7 +150,7 @@
   align-items:center;
   border: 1px solid red ;
 }
-.digits__section-title{
+.section-title{
   text-align: center;
   margin:0;
   width: 60%;
@@ -164,7 +159,7 @@
   line-height: 1.15;
   border: 1px solid red ;
 }
-.digits__section-subtitle{
+.section-subtitle{
   text-align: center;
   margin:0;
   margin-top:20px;
@@ -174,30 +169,33 @@
   line-height: 34px;
   border: 1px solid red ;
 }
-.digits__table{
+.table{
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
-
+  list-style-type: none;
   width: 1100px;
+  margin:0;
+  padding:0;
   border: 1px solid blue ;
 }
-.digits__table-cell{
+.table__cell{
   border: 1px solid red ;
   width: 250px;
   margin-top: 60px;
 }
-.digits__table-cell-heading{
+.table__heading{
   margin:0;
 
   font-size: 24px;
   font-weight: 600;
   line-height: 1.15;
 }
-.digits__table-cell-text{
+.table__text{
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
+  margin: 0;
   margin-top: 20px;
 }
 
@@ -249,3 +247,109 @@
   margin-top: 70px;
   border: 1px solid red ;
 }
+
+.kaufman{
+ background-color: #1f1f1f;
+ display: flex;
+ position: relative;
+ flex-direction: column;
+ align-items:center;
+ overflow: hidden;
+ 
+}
+
+.section-title_theme_dark{
+  margin-top: 90px;
+  color: white;
+}
+.section-subtitle_theme_dark{
+  color: white;
+  
+}
+.table_theme_dark{
+ margin-bottom: 90px;
+}
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 1;
+}
+.kaufman-triangle{
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  color: white;
+  background-color: #1f1f1f;
+  position: relative;
+  border: 1px solid red ;
+}
+.logo_place_footer{
+  background-image: url("file:///C:/Users/vjche/Desktop/Practikum/dev/how-to-learn/images/logo_place_footer.svg");
+  
+  border: 1px solid red ;
+}
+.footer__columns{
+  display: flex;
+  
+  justify-content: space-between;
+  width: 90%;
+  border: 1px solid blue ;
+}
+.footer__column_content_copyright{
+  flex-basis: 771px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid red ;
+}
+.logo_place_footer{
+  display: flex;
+
+}
+.footer__author{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  margin: 0;
+  margin: 18px 0;
+}
+.footer__column_content_info{
+  border: 1px solid red ;
+}
+.footer__heading{
+font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+margin:0;
+margin-bottom: 20px;
+}
+.footer__column-link{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  
+  
+}
+
+.footer_column-links{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  margin-bottom: 16px;
+  border: 1px solid red ;
+}
+.footer__column_content_social{
+  border: 1px solid red ;
+}
+.footer__social_icon{
+  margin-right: 10px;
+ }
