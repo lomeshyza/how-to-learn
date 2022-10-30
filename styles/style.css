@@ -68,7 +68,7 @@
 
 .header__main-illustration{
   position: absolute;
-  right: 0; 
+  right: 0;
   bottom: 0;
   width: 765px;
   height: 608px;
@@ -299,6 +299,7 @@
 
 .logo_place_footer{
   background-image: url("file:///C:/Users/vjche/Desktop/Practikum/dev/how-to-learn/images/logo_place_footer.svg");
+  display: flex;
 }
 
 .footer__columns{
@@ -312,10 +313,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.logo_place_footer{
-  display: flex;
 }
 
 .footer__author{
