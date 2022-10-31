@@ -278,7 +278,7 @@
   z-index: 1;
 }
 
-.kaufman-triangle {
+.kaufman__triangle {
   background-repeat: no-repeat;
   background-image: url('../images/kaufman-triangle.svg');
   background-size: cover;
